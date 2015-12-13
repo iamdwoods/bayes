@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bayes's Theorem</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+
+<!--
+	<form action="#" method="post"> -->
+		<form>
+
+		<h1>Enter Known Values Below</h1>
+
+		<p>
+			<label for="priorProbability">Prior probability</label>
+			<input id="priorProbability" name="priorProbability" type="text">
+			<span>Enter a probability in integer format or with a percent sign</span>
+		</p>
+		<p>
+			<label for="ifHypothesisTrue">Probability of event taking place if hypothesis is TRUE</label>
+			<input id="ifHypothesisTrue" name="ifHypothesisTrue" type="text">
+			<span>Enter a probability in integer format or with a percent sign</span>
+		</p>
+			<p>
+			<label for="ifHypothesisFalse">Probability of event taking place if hypothesis is FALSE</label>
+			<input id="ifHypothesisFalse" name="ifHypothesisFalse" type="text">
+			<span>Enter a probability in integer format or with a percent sign</span>
+		</p>
+		<p>
+			<input type="submit" value="Calculate!" id="calculate" name="calculate">
+		</p>
+	</form>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
